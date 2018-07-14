@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <HelloWorld/>
   </div>
 </template>
 
@@ -23,6 +23,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+</style>
+<style scoped>
+img{
+  height: 12%;
+  width: 12%;
+  border-radius: 50%;
+  margin-bottom: 30px;
 }
 </style>
